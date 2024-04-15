@@ -1,0 +1,162 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+ 
+
+}
+
+.facebook{
+  font-size: 70px;
+  color: #1877f2;
+
+}
+p{
+  font-size: 20px;
+}
+
+
+.login_form_content{
+  border: 1px solid gainsboro;
+  margin-left: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: auto;
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+input{
+width: 370px;
+height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+border: 1px solid gainsboro;
+outline: none;
+
+ 
+}
+input:focus {
+  border: 2px solid #1877f2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#log_in_b{width: 370px;
+  height: 50px;
+    border-radius: 5px;
+  background-color: #1877f2;;
+  border: none;
+
+}
+
+#log_in_a{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+#forgooten{
+  font-size: 20px;
+  text-decoration: none;
+  color: #1877f2;
+}
+.divfor{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+hr{width: 96%;
+  margin-left: 2%;
+  border: gainsboro solid 0.1px;
+ }
+#Create_new_account_a{font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+
+
+}
+#Create_new_account_b{
+  width: 170px;
+  height: 40px;
+  margin-top: 10px;
+  background: #06b909;
+  border-radius: 5px;
+  border: none;
+  
+ 
+}
+
+
+.Create_new_account_div{
+  margin-top: 10px;
+  
+}
+::placeholder{
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 798px){
+
+.container{
+   flex-direction: column;
+}
+.login_form_content{
+  margin-top: 10px;
+  margin-left: -1px;
+}
+}
+
+@media only screen and (max-width: 414px){
+
+  .container{
+     flex-direction: column;
+  }
+  .login_form_content{
+    margin-top: 10px;
+  }
+
+  input{
+    width: 300px;
+    height: 50px;
+      border-radius: 5px;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+    #log_in_b{width: 300px;
+      height: 50px;
+        border-radius: 5px;
+            }
+
+
+  }
+
+  @media only screen and (max-width: 340px){
+    input{
+      width: 200px;
+      height: 50px;
+        border-radius: 5px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+      }
+      #log_in_b{width: 200px;
+        height: 50px;
+          border-radius: 5px;
+              }
+              .facebook{
+                font-size: 50px;
+              
+              }
+              p{
+                font-size: 15px;
+              }
+              
+  }

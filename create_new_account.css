@@ -1,0 +1,215 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    background-color: #f5f6f7;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+a{text-decoration: none;}
+
+.container{
+    border: none;
+    width: max(28.2%,450px);
+    height: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.signup_back_container{ 
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+.sign_up{ 
+font-size: 25px;
+font-family: Arial;
+margin-left: 3%;}
+
+.back{
+    margin-left: 55%;
+}
+.back a { 
+    font-family: Arial;
+    color: rgba(0, 0, 0, 0.564);
+    text-decoration: none;
+}
+.signup_below_content{
+    margin-top: 1%;
+    font-size: 15px;
+    font-family: Arial;
+    color:gray;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+
+/* form start */
+.name_lastname_container{
+    display: flex;
+    margin-top: 3%;
+}
+
+input{
+width: 125%;
+height: 40px;
+border-radius: 5px;
+padding-left: 10%;
+ background-color:  #f5f6f7;
+ border-color: gainsboro;
+
+ border: 1px;
+ outline: none;
+}
+.firstname{
+    margin-left: 4%;
+
+}
+.lastname{
+    margin-left: 10%;
+
+}
+.mobile_number input{
+    width: 91%;
+    margin-left: 4%;
+    margin-top: 3%;
+    padding-left:10px ;
+}
+.password input{
+    width: 91%;
+    margin-left: 4%;
+    margin-top: 3%;
+    padding-left:10px ;
+}
+input:invalid{
+border: 1px dotted;
+border-color: rgba(255, 0, 0, 0.555);
+}
+input:focus{
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* date section strt */
+.date_label{
+    margin-top: 3%;
+    margin-left: 4%;
+}
+.date_format input{
+    width: 91%;
+    margin-left: 4%;
+    padding-left:10px ;
+}
+/* date section end */
+
+/* gender section start */
+.label_gender{
+    margin-top: 3%;
+    margin-left: 4%;
+}
+input[type="radio"]{
+    width: 15px;
+    position: relative;
+    top: -5px;
+    padding: 0%;
+    box-sizing: border-box;
+    border-color: gainsboro;
+}
+.option_gender{
+    display: flex;
+}
+.a{ margin-left: 4%;
+    padding-left:10px ;
+    height: 30px;border: 1px solid black;
+    border-radius: 5px;
+    width: 27%;
+    border-color: gainsboro;
+ }
+ .label_female{
+    position: relative;
+    top: -20px;
+ }
+
+ /* gender section end */
+
+
+ /* form end */
+ .p1 {
+    font-size: 10px;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 3%;
+    color: rgb(152, 149, 149);
+ }
+
+ .p2 {
+    font-size: 10px;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 3%;
+    color: rgb(152, 149, 149);
+ }
+ button{
+    width: 40%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #00a400;;
+    color: white;
+    border: none;
+    margin-top: 3%;
+    margin-left:30%;
+    margin-bottom: 10%;
+    
+ }
+ 
+
+ @media only screen and (max-width: 448px){
+
+    .container{
+        width: 250px;
+        margin-top: 10%;
+    }
+
+.sign_up{ 
+    font-size: 15px;
+}
+
+.back{
+    margin-left: 52%;
+}
+
+
+input{
+    width: 90%;
+}
+
+.lastname{
+margin-left: 0%;
+
+}
+
+
+
+
+input[type="radio"]{
+    width: 20%;
+    left: 33px;
+    top: -25px;
+  
+}
+
+div label{
+    font-size: 10px;
+}
+
+ .label_female{
+    top: 3px;
+ }
+ }
